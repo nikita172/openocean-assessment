@@ -1,0 +1,67 @@
+.appContainer{
+  width: 1023px;
+  background-color: rgb(247, 245, 245);
+  margin: 0px auto;
+}
+.title{
+  font-weight: 500;
+  font-size: 25px;
+  padding: 30px 10px 10px 10px;
+}
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.colourTitle{
+  font-size: 14px;
+  font-weight: 400;
+}
+.searchInput{
+  width: 200px;
+  border: 1px solid rgb(186, 186, 186);
+  outline: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.allResults{
+  padding: 10px;
+}
+.allColoursTitle{
+  font-size: 14px;
+}
+.tableHeading{
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+.colourPalleteEmpty{
+  width: 40px;
+  height: 40px;
+}
+.colourPallete{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.NameHeading{
+  width: 300px;
+  margin-left: 3px;
+}
+.hexHeading, .rgbHeading, .hslHeading{
+  width: 200px;
+}
+.tableData{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.loading{
+  padding: 10px;
+}
